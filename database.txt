@@ -1,4 +1,4 @@
-    ID  ||  Genre   ||    Title   ||  Author  ||  Purchase Date   ||  Member Id
+    ID  ||  Genre   ||    Title   ||  Author  ||  Purchase Date   ||  Member ID
 1       ||Sci-Fi    ||Book_1      ||Author_1  ||1/8/2010          ||co1
 2       ||Fantasy   ||Book_2      ||Author_2  ||1/8/2014          ||0
 3       ||Sci-Fi    ||Book_1      ||Author_1  ||1/8/2010          ||co2
