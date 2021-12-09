@@ -64,4 +64,14 @@ def addLogs(memberID,bookID):  # appends a new line to the logfile with the date
     f.write(line)
     f.close()
 
+def getInfo(data): # returns a 2D array of the data with headers at point [0] of each array
+    firstBook = data[0]
+    dataArray = [["ID/s: "],["Genre: ",firstBook[1]],["Author/s: ",firstBook[3]] # Todo to optimise this function to work for both data base and logfile
+        ,["Purchase Date: "],["Member ID: "]]
+    for info in data:
+        dataArray[0].append(info[0])
+        dataArray[3].append(info[4])
+        dataArray[4].append(info[5])
+    return dataArray
+
 
