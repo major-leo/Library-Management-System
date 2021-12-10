@@ -10,7 +10,7 @@ def bookcheckout():
         return False
     if bookID[-1] != '0':
         return False
-    editData(memberID,bookID)
+    editData(memberID,bookID,"database.txt")
     addLogs(memberID,bookID)
     memberLoans = searchData(memberID,"logfile.txt","Member ID")
     daysLoaned = loanDays(memberLoans)

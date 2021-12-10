@@ -38,19 +38,19 @@ def loanDays(logInfo):  # finds how long a book has been on loan for
         else:
             return False
 
-def editData(memberID,bookID):  # Edits the database so that the book is now shown to be borrowed by a member
-    f = open("database.txt","r")  # Todo to make it edit both txt files
+def editData(memberID,bookID,txt):  # Edits the database so that the book is now shown to be borrowed by a member
+    f = open(txt,"r")  # Todo to make it edit both txt files
     replacementTxt = ""
     for line in f:
         if getData(line.strip("\n")) == bookID:
-            line = list(line.strip("\n"))
+            line = line.strip("\n").split("||")
             line[-1] = memberID
-            change = "".join(line)+"\n"
+            change = "||".join(line)+"\n"
             replacementTxt += change
         else:
             replacementTxt += line
     f.close()
-    fWrite = open("database.txt","w")
+    fWrite = open(txt,"w")
     fWrite.write(replacementTxt)
     fWrite.close()
 
