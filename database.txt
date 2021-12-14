@@ -1,5 +1,52 @@
-    ID  ||  Genre   ||    Title   ||  Author  ||  Purchase Date   ||  Member ID
-1       ||Sci-Fi    ||Book_1      ||Author_1  ||1/8/2010          ||coai
-2       ||Fantasy   ||Book_2      ||Author_2  ||1/8/2014          ||0
-3       ||Sci-Fi    ||Book_1      ||Author_1  ||1/8/2010          ||cobi
-4       ||Adventure ||Book_4      ||Author_2  ||1/8/2010          ||0
+    ID  ||  Genre   ||          Title           ||          Author          ||  Purchase Date   ||  Member ID
+1       ||Crime     ||The Suspect               ||Sarah Waters              ||12/04/1995        ||0
+2       ||Sci-Fi    ||Watchmen                  ||Alan Moore                ||07/11/2008        ||trte
+3       ||Crime     ||Lethal White              ||Robert Galbraith          ||26/04/2018        ||0
+4       ||Fantasy   ||Magic for Liars           ||Sarah Gailey              ||29/05/2014        ||rdil
+5       ||Fantasy   ||A Wild Sheep Chase        ||Haruki Murakami           ||15/06/1990        ||ppmq
+6       ||History   ||Killers of the Flower Moon||David Grann               ||19/05/2008        ||esno
+7       ||Thriller  ||Never Have I Ever         ||Joshilyn Jackson          ||13/10/2014        ||0
+8       ||Thriller  ||Cold Waters               ||Debbie Herbert            ||17/12/2011        ||thgg
+9       ||Romance   ||The Only Woman in the Room||Marie Benedict            ||03/09/2016        ||osmz
+10      ||Drama     ||Ulysses                   ||James Joyce               ||06/08/2005        ||blje
+11      ||Romance   ||Eligible                  ||Curtis Sittenfeld         ||07/05/1998        ||goog
+12      ||Thriller  ||Baby Teeth                ||Zoje Stage                ||17/05/2011        ||mrxs
+13      ||Fantasy   ||Red Sister                ||Mark Lawrence             ||27/12/2013        ||thgg
+14      ||Fantasy   ||The Wonderful Wizard of Oz||L Frank Baum              ||30/10/2018        ||0
+15      ||Sci-Fi    ||The Road                  ||Cormac McCarthy           ||07/03/2000        ||orat
+16      ||History   ||Angela's Ashes            ||Frank McCourt             ||27/03/2021        ||0
+17      ||History   ||The Last of the Mohicans  ||James Fenimore Cooper     ||01/04/2019        ||0
+18      ||Classic   ||Scoop                     ||Evelyn Waugh              ||04/12/2020        ||0
+19      ||Thriller  ||The Whistler              ||John Grisham              ||01/05/2021        ||0
+20      ||Fantasy   ||The Fifth Season          ||N. K. Jemisin             ||15/11/2021        ||0
+21      ||Classics  ||The Shipping News         ||Annie Proulx              ||23/02/2019        ||0
+22      ||Crime     ||Cemetery Road             ||Greg Iles                 ||01/02/2020        ||0
+23      ||Classics  ||The Catcher in the Rye    ||Jerome David Salinger     ||08/10/2020        ||0
+24      ||Romance   ||Alex, Approximately       ||Jenn Bennett              ||24/04/2019        ||0
+25      ||Sci-Fi    ||The Testaments            ||Margaret Atwood           ||20/11/2019        ||0
+26      ||Sci-Fi    ||Carve the Mark            ||Veronica Roth             ||14/04/2020        ||0
+27      ||Sci-Fi    ||All Systems Red           ||Martha Wells              ||09/03/2019        ||0
+28      ||Romance   ||Carry On                  ||Rainbow Rowell            ||17/01/2021        ||0
+29      ||Romance   ||If I Was Your Girl        ||Meredith Russo            ||25/07/2021        ||0
+30      ||Thriller  ||Never Tell                ||Lisa Gardner              ||10/09/2019        ||0
+31      ||Sci-Fi    ||Slade House               ||David Mitchell            ||20/01/2021        ||0
+32      ||Fantasy   ||The Library at Mount Char ||Scott Hawkins             ||20/02/2019        ||0
+33      ||Classics  ||The Sun Also Rises        ||Ernest Hemingway          ||12/12/2019        ||0
+34      ||Romance   ||The Light We Lost         ||Jill Santopolo            ||18/07/2020        ||0
+35      ||Romance   ||Every Last Word           ||Tamara Ireland Stone      ||11/12/2020        ||0
+36      ||Fantasy   ||The Kingdom of Copper     ||S. A. Chakraborty         ||14/03/2021        ||0
+37      ||Classics  ||Atlas Shrugged            ||Ayn Rand                  ||05/07/2021        ||0
+38      ||Crime     ||The Passenger             ||Lisa Lutz                 ||12/12/2020        ||0
+39      ||Thriller  ||Sometimes I Lie           ||Alice Feeney              ||31/03/2021        ||0
+40      ||Fantasy   ||The Winter of the Witch   ||Katherine Arden           ||20/11/2021        ||0
+41      ||Thriller  ||Cold Waters               ||Debbie Herbert            ||25/02/2021        ||0
+42      ||Fantasy   ||The Library at Mount Char ||Scott Hawkins             ||07/04/2020        ||0
+43      ||Romance   ||The Light We Lost         ||Jill Santopolo            ||28/11/2021        ||0
+44      ||Crime     ||Lethal White              ||Robert Galbraith          ||11/05/2019        ||0
+45      ||Romance   ||Eligible                  ||Curtis Sittenfeld         ||03/05/2021        ||0
+46      ||Sci-Fi    ||The Road                  ||Cormac McCarthy           ||28/02/2021        ||0
+47      ||Classics  ||Atlas Shrugged            ||Ayn Rand                  ||27/04/2019        ||0
+48      ||Classics  ||Oliver Twist              ||Charles Dickens           ||08/10/2021        ||0
+49      ||Fantasy   ||The Lord of the rings     ||J.R.R Tolkien             ||15/10/2020        ||0
+50      ||Classics  ||Matilda                   ||Roald Dahl                ||11/12/2021        ||0
+51      ||Crime     ||My Husband's Wife         ||Jane Corry                ||11/11/2019        ||0
