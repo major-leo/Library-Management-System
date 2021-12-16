@@ -1,4 +1,8 @@
+from datetime import datetime
 from database import getInfo, searchData, loanDays
+from datetime import date
+#written by: F126783
+
 
 def booksearch (book):
     #searches for a book and returns a dictionary with the information
@@ -43,7 +47,7 @@ def test_booksearch_Loan():
     #testing that amount of days the book has been on loan is
     # returned if necessary
     actual = booksearch(book="Watchmen")["Watchmen"]
-    expected = ['Loan: ', '233']
+    expected = ['Loan: ', str((datetime.today() - datetime(2021,4 ,25)).days)]
     assert expected in actual, "should return loan days amount"
 
 def test_booksearch_loan2():
@@ -66,8 +70,8 @@ def test_booksearch_Multi():
                             ['Author/s: ', 'Debbie Herbert'],
                             ['Purchase Date: ', '17/12/2011', '25/02/2021'],
                             ['Member ID: ', 'thgg', '0'],
-                            ['Loan: ', '592']]}
-    assert actual == expected, "should have multiple IDs and member Ids"
+                            ['Loan: ', str((datetime.today() - datetime(2020,5,1)).days)]]}
+    assert actual == expected, "should have mult    iple IDs and member Ids"
 
 
 if __name__=='__main__':

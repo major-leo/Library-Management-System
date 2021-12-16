@@ -1,4 +1,6 @@
 from datetime import datetime
+#written by: F126783
+
 
 def searchData(book,txt,column):
     # searches the text file and returns a 2D array of all the information
@@ -126,7 +128,7 @@ def testing_loandays():
                        ['15', 'orat', '01/12/2021', '0'],
                        ['15', 'jvrc', '17/07/2019', '16/09/2020'],
                        ['15', 'bnsr       ', '19/08/2019', '23/09/2021']])
-    expected = 13
+    expected = (datetime.today() - datetime(2021,12,1)).days
     assert actual == expected, "should return the amount days the current " \
                                "book has been one loan for"
 
